@@ -1,6 +1,6 @@
-import dotnev from 'dotenv';
+import dotenv from 'dotenv';
 
-dotnev.config();
+dotenv.config();
 
 export const ENV={
     PORT: process.env.PORT,
@@ -8,8 +8,8 @@ export const ENV={
     MONGODB_URI: process.env.MONGODB_URI,
     CLERK_PUBLISHABLE_KEY: process.env.CLERK_PUBLISHABLE_KEY,
     CLERK_SECRET_KEY: process.env.CLERK_SECRET_KEY,
-    CLOUNDINARY_CLOUD_NAME: process.env.CLOUDINARY_CLOUD_NAME,
-    CLOUNDINARY_API_KEY: process.env.CLOUDINARY_API_KEY,
-    CLOUNDINARY_API_SECRET: process.env.CLOUDINARY_API_SECRET,
+    CLOUDINARY_CLOUD_NAME: process.env.CLOUDINARY_CLOUD_NAME,
+    CLOUDINARY_API_KEY: process.env.CLOUDINARY_API_KEY,
+    CLOUDINARY_API_SECRET: process.env.CLOUDINARY_API_SECRET,    
     ARCJET_KEY: process.env.ARCJET_KEY,
 }
